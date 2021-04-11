@@ -7,7 +7,7 @@ UsingDynamicArray_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingDynamic
 
 # Υλοποιήσεις μέσω ADTSet: ADTVector
 #
-UsingADTSet_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingADTSet/ADTVector.o
+UsingADTSet_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingADTSet/ADTVector.o $(MODULES)/UsingAVL/ADTSet.o
 
 # Υλοποιήσεις μέσω BinarySearchTree: ADTSet
 #
