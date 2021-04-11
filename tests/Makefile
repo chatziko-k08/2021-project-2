@@ -5,9 +5,13 @@
 #
 UsingDynamicArray_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingDynamicArray/ADTVector.o
 
+# Υλοποιήσεις μέσω ADTSet: ADTVector
+#
+UsingADTSet_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingADTSet/ADTVector.o
+
 # Υλοποιήσεις μέσω BinarySearchTree: ADTSet
 #
-UsingBinarySearchTree_ADTSet_test_OBJS  = ADTSet_test.o $(MODULES)/UsingBinarySearchTree/ADTSet.o
+UsingBinarySearchTree_ADTSet_test_OBJS = ADTSet_test.o $(MODULES)/UsingBinarySearchTree/ADTSet.o
 
 # Ο βασικός κορμός του Makefile
 include ../common.mk
