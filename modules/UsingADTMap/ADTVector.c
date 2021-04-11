@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////
 //
-// Υλοποίηση του ADT Vector μέσω ADT Set.
+// Υλοποίηση του ADT Vector μέσω ADT Map.
 //
 ///////////////////////////////////////////////////////////
 
@@ -8,7 +8,7 @@
 #include <assert.h>
 
 #include "ADTVector.h"
-#include "ADTSet.h"
+#include "ADTMap.h"
 
 
 // Ένα VectorNode είναι pointer σε αυτό το struct.
