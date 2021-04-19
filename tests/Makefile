@@ -7,6 +7,9 @@ UsingDynamicArray_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingDynamic
 
 # Υλοποιήσεις μέσω ADTMap: ADTVector
 #
+# Για να λειτουργήσουν χρειάζονται και μια υλοποίηση του ADTMap. Χρησιμοποιούμε την UsingADTSet/ADTMap.o,
+# η οποία με τη σειρά της χρειάζεται μια υλοποίηση του ADTSet (χρησιμοποιούμε την UsingAVL/ADTSet.o).
+#
 UsingADTMap_ADTVector_test_OBJS = ADTVector_test.o $(MODULES)/UsingADTMap/ADTVector.o $(MODULES)/UsingADTSet/ADTMap.o $(MODULES)/UsingAVL/ADTSet.o
 
 # Υλοποιήσεις μέσω BinarySearchTree: ADTSet
